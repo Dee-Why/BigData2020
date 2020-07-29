@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 
-obj_type = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+obj_type = ['Tshirt', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
 model_save_path = './checkpoint/fashion.ckpt'
 
