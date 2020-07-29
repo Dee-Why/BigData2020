@@ -14,7 +14,7 @@ model = tf.keras.models.Sequential([
 
 model.load_weights(model_save_path)
 
-def predict_imgpath(img_path):
+def predict_imgpath(image_path):
     '''
     the core function of the service
 
