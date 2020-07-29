@@ -181,6 +181,8 @@ root@6a518e71ad4b:/#
 conda create -n bdproject python=3.8
 pip install cassandra-driver
 conda install flask
+pip install pyspark  # 这些都是些准备工作
+conda install jupyter botebook
 ```
 
 
