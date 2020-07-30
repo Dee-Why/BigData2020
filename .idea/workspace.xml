@@ -20,16 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b8b1c71-c54c-4115-b4d4-94ae0df7f62b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BigData2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-cassandra/insert_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/static/images/1trouser.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/static/images/2pullover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/static/images/3dress.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/static/images/4coat.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BigData2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BigData2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-cassandra/prepare_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn-cassandra/prepare_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/prepare_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/prepare_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/0_t-shirt.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/0tshirt.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/1_trouser.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/2_pullover.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/3_dress.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/4_coat.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/static/images/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test/static/images/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/templates/upload_ok.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/templates/upload_ok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/upload_pictures.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/upload_pictures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,8 +69,104 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.upload_pictures">
+    <configuration name="insert_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BigData2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn-cassandra" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn-cassandra/insert_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BigData2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/prepare_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BigData2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn-cassandra" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn-cassandra/prepare_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload_pictures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BigData2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/upload_pictures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.upload_pictures" />
+        <item itemvalue="Python.prepare_db (1)" />
+        <item itemvalue="Python.insert_data" />
+        <item itemvalue="Python.prepare_db" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,8 +191,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="236" key="FileChooserDialogImpl" timestamp="1596075028724">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="532" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1596075028724" />
+    <state width="1480" height="258" key="GridCell.Tab.0.bottom" timestamp="1596081979188">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="258" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596081979188" />
+    <state width="1480" height="258" key="GridCell.Tab.0.center" timestamp="1596081979188">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="258" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596081979188" />
+    <state width="1480" height="258" key="GridCell.Tab.0.left" timestamp="1596081979187">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="258" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596081979187" />
+    <state width="1480" height="258" key="GridCell.Tab.0.right" timestamp="1596081979188">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="258" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596081979188" />
   </component>
 </project>

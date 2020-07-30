@@ -31,5 +31,16 @@ Cassandra（已经容器化）：数据库，使用CQL语言。我可以用pytho
 
 现在的问题有：
 
-1. 这些东西最终都要整合到一个容器里，发送到dockerhub么？
-2. 如果不是的话，会是一个什么样的结构
+1. 这些东西最终都要整合到一个容器里，发送到dockerhub
+
+## 做出来的阶段性成果
+
+可以在本地运行flask服务，在localhost的相应端口访问服务
+
+可以在浏览器里上传图片并得到物品分类信息
+
+上传时间，文件名，分类信息会被保存到另一个docker容器里的cassandra数据库中
+
+docker run --name deewhy-cassandra --network deewhy-network -p 9042:9042 -d cassandra:latest
+
+winpty docker run -it --network deewhy-network --rm cassandra cqlsh deewhy-cassandra
