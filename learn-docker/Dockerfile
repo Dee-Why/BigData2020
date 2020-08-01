@@ -12,7 +12,7 @@ RUN /usr/local/bin/python -m pip install --upgrade pip
 # install all the requirements
 RUN pip install -r requirements_minimal.txt
 
-
+EXPOSE 5000
 
 # run the main flask service
 CMD ["python", "run_server.py"]

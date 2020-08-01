@@ -1,0 +1,7 @@
+https://blog.csdn.net/dcrmg/article/details/81987808
+https://www.cnblogs.com/xiaxiaoxu/p/10549485.html
+https://flask.palletsprojects.com/en/1.1.x/patterns/fileuploads/
+
+@app.route('/')
+def index():
+    return redirect(url_for('upload'))

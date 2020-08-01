@@ -26,7 +26,7 @@
       <change beforePath="$PROJECT_DIR$/../learn-docker/requirements_full.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn-docker/requirements_minimal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-docker/requirements_minimal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn-docker/run_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-docker/run_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,49 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.upload_pictures">
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\huawei\lmc\local_git_repos\BigData2020\retry1_docker\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="play" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,30 +143,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="upload_pictures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upload_pictures.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.upload_pictures" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.prepare_db" />
         <item itemvalue="Python.play" />
       </list>
@@ -167,22 +189,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="532" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1596115257349" />
-    <state width="1480" height="203" key="GridCell.Tab.0.bottom" timestamp="1596294018990">
+    <state width="1480" height="232" key="GridCell.Tab.0.bottom" timestamp="1596295215971">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
-    <state width="1480" height="203" key="GridCell.Tab.0.center" timestamp="1596294018990">
+    <state width="1480" height="232" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596295215971" />
+    <state width="1480" height="232" key="GridCell.Tab.0.center" timestamp="1596295215971">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
-    <state width="1480" height="203" key="GridCell.Tab.0.left" timestamp="1596294018990">
+    <state width="1480" height="232" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596295215971" />
+    <state width="1480" height="232" key="GridCell.Tab.0.left" timestamp="1596295215971">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
-    <state width="1480" height="203" key="GridCell.Tab.0.right" timestamp="1596294018990">
+    <state width="1480" height="232" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596295215971" />
+    <state width="1480" height="232" key="GridCell.Tab.0.right" timestamp="1596295215971">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
+    <state width="1480" height="232" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596295215971" />
     <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1596031479752">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
