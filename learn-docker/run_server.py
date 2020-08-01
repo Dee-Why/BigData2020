@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 import os
 import cv2
 import time
+from datetime import datetime
 import prediction
 import logging
 log = logging.getLogger()
@@ -16,39 +17,16 @@ from datetime import timedelta
 from cassandra.cluster import Cluster
 from cassandra.query import SimpleStatement
 
+app = Flask(__name__)
+# 设置静态文件缓存过期时间
+app.send_file_max_age_default = timedelta(seconds=1)
+
+
 # 设置允许的文件格式
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'JPG', 'PNG', 'bmp','JPEG','jpeg'])
 # 设置数据库的KEYSPACE
 KEYSPACE = "mykeyspace"
 
-def insert_into_db(filename, predictcategory):
-    cluster = Cluster(contact_points=['127.0.0.1'], port=9042)
-    session = cluster.connect()
-    try:
-        log.info("setting keyspace...")
-        session.set_keyspace(KEYSPACE)
-
-        log.info("inserting...")
-        stamp = int(time.time())
-        timestamp = time.strftime("%Y%m%d%H%M%S", time.localtime(stamp))
-        # now = int(round(time.time() * 1000))
-        # now_str = time.strftime('%Y-%m-%d--%H:%M:%S', time.localtime(now / 1000))
-        log.info("timestamp is:", timestamp)
-        session.execute("""
-            INSERT INTO mytable (timestamp, filename, predictcategory)
-            VALUES ('{}', '{}', '{}')""".format(timestamp, filename, predictcategory))
-
-    except Exception as e:
-        log.error("insertion failed")
-        log.error(e)
-
-def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
-
-
-app = Flask(__name__)
-# 设置静态文件缓存过期时间
-app.send_file_max_age_default = timedelta(seconds=1)
 
 
 @app.route('/')
@@ -56,7 +34,11 @@ def index():
     return redirect(url_for('upload'))
 
 
-# @app.route('/upload', methods=['POST', 'GET'])
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+
+
+
 @app.route('/upload', methods=['POST', 'GET'])  # 添加路由
 def upload():
     if request.method == 'GET':
@@ -86,8 +68,71 @@ def upload():
         return render_template('upload_ok.html', userinput=pred_str, val1=time.time())
 
 
+def createKeySpace():
+    """ Try to establish Cassandra connection and return simple query results """
+    cluster = Cluster([os.environ.get('CASSANDRA_PORT_9042_TCP_ADDR', 'localhost')],
+                      port=int(os.environ.get('CASSANDRA_PORT_9042_TCP_PORT', 9042))
+                      )
+    try:
+        session = cluster.connect()
+    except Exception as error:
+        message = "%s: %s" % (error.__class__.__name__, str(error))
+        return jsonify(message=message, hostname=os.uname()[1],
+                       current_time=str(datetime.now())), 500
 
+    log.info("Creating keyspace...")
+    try:
+        session.execute("""
+            CREATE KEYSPACE %s
+            WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': '2' }
+            """ % KEYSPACE)
+
+        log.info("setting keyspace...")
+        session.set_keyspace(KEYSPACE)
+
+        log.info("creating table...")
+        session.execute("""
+            CREATE TABLE mytable (
+                timestamp text,
+                filename text,
+                predictcategory text,
+                PRIMARY KEY (timestamp, filename)
+            )
+            """)
+    except Exception as e:
+        log.error("Unable to create keyspace")
+        log.error(e)
+
+def insert_into_db(filename, predictcategory):
+    """ Try to establish Cassandra connection and return simple query results """
+    cluster = Cluster([os.environ.get('CASSANDRA_PORT_9042_TCP_ADDR', 'localhost')],
+                      port=int(os.environ.get('CASSANDRA_PORT_9042_TCP_PORT', 9042))
+                      )
+    try:
+        session = cluster.connect()
+    except Exception as error:
+        message = "%s: %s" % (error.__class__.__name__, str(error))
+        return jsonify(message=message, hostname=os.uname()[1],
+                       current_time=str(datetime.now())), 500
+    try:
+        log.info("setting keyspace...")
+        session.set_keyspace(KEYSPACE)
+
+        log.info("inserting...")
+        stamp = int(time.time())
+        timestamp = time.strftime("%Y%m%d%H%M%S", time.localtime(stamp))
+        # now = int(round(time.time() * 1000))
+        # now_str = time.strftime('%Y-%m-%d--%H:%M:%S', time.localtime(now / 1000))
+        log.info("timestamp is:", timestamp)
+        session.execute("""
+            INSERT INTO mytable (timestamp, filename, predictcategory)
+            VALUES ('{}', '{}', '{}')""".format(timestamp, filename, predictcategory))
+
+    except Exception as e:
+        log.error("insertion failed")
+        log.error(e)
 
 if __name__ == '__main__':
+    createKeySpace()
     # app.debug = True
-    app.run(host='0.0.0.0', port=8987, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="570c5a8d-5fca-4f3c-b126-45b172dfaf87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/3dress.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/4coat.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn-docker/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepare_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload_ok.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload_ok.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,26 +160,26 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="494" y="281" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1596025953119" />
-    <state x="532" y="236" key="FileChooserDialogImpl" timestamp="1596022639403">
+    <state x="532" y="236" key="FileChooserDialogImpl" timestamp="1596115257349">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="532" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1596022639403" />
-    <state width="1480" height="143" key="GridCell.Tab.0.bottom" timestamp="1596041981143">
+    <state x="532" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1596115257349" />
+    <state width="1480" height="203" key="GridCell.Tab.0.bottom" timestamp="1596117537649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="143" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596041981143" />
-    <state width="1480" height="143" key="GridCell.Tab.0.center" timestamp="1596041981143">
+    <state width="1480" height="203" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596117537649" />
+    <state width="1480" height="203" key="GridCell.Tab.0.center" timestamp="1596117537649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="143" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596041981143" />
-    <state width="1480" height="143" key="GridCell.Tab.0.left" timestamp="1596041981143">
+    <state width="1480" height="203" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596117537649" />
+    <state width="1480" height="203" key="GridCell.Tab.0.left" timestamp="1596117537649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="143" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596041981143" />
-    <state width="1480" height="143" key="GridCell.Tab.0.right" timestamp="1596041981143">
+    <state width="1480" height="203" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596117537649" />
+    <state width="1480" height="203" key="GridCell.Tab.0.right" timestamp="1596117537649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="143" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596041981143" />
+    <state width="1480" height="203" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596117537649" />
     <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1596031479752">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

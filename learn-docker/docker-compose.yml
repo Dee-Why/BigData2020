@@ -1,0 +1,11 @@
+deewhy-webservice:
+  build: .
+
+  ports:
+    - "5000:5000"
+  links:
+    - deewhy-cassandra
+
+
+deewhy-cassandra:
+  image: cassandra:3.11.7

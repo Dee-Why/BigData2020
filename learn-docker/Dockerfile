@@ -7,12 +7,12 @@ WORKDIR /app
 # Copy all the file in current dir on this machine to the working dir in the container
 ADD . /app
 
+RUN /usr/local/bin/python -m pip install --upgrade pip
+
 # install all the requirements
-RUN pip install -r requirements.txt
+RUN pip install -r requirements_minimal.txt
 
 
-# prepare the database # cassandra needed
-CMD ["python", "prepare_db.py"]
 
 # run the main flask service
 CMD ["python", "run_server.py"]
