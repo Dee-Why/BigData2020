@@ -20,17 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="570c5a8d-5fca-4f3c-b126-45b172dfaf87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/0tshirt.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/1trouser.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/2pullover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/3dress.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../retry1_docker/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../retry1_docker/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/.idea/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../retry1_docker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../retry1_docker/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/static/images/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../test/static/images/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
