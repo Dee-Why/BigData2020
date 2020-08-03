@@ -1,9 +1,7 @@
 # coding:utf-8
-
 from flask import Flask, render_template, request, redirect, url_for, make_response, jsonify
 from werkzeug.utils import secure_filename
 import os
-import cv2
 import time
 import prediction
 import logging
@@ -47,6 +45,7 @@ def createKeySpace():
         log.error("Unable to create keyspace")
         log.error(e)
 
+
 def insert_into_db(filename, predictcategory):
     cluster = Cluster(contact_points=['172.18.0.2'], port=9042)
     session = cluster.connect()
@@ -59,7 +58,7 @@ def insert_into_db(filename, predictcategory):
         timestamp = time.strftime("%Y%m%d%H%M%S", time.localtime(stamp))
         # now = int(round(time.time() * 1000))
         # now_str = time.strftime('%Y-%m-%d--%H:%M:%S', time.localtime(now / 1000))
-        # log.info("timestamp is:", timestamp)
+        log.info("timestamp is:", timestamp)
         session.execute("""
             INSERT INTO mytable (timestamp, filename, predictcategory)
             VALUES ('{}', '{}', '{}')""".format(timestamp, filename, predictcategory))
@@ -92,7 +91,7 @@ def upload():
         f = request.files['file']
 
         if not (f and allowed_file(f.filename)):
-            return jsonify({"error": 1001, "msg": "请检查上传的图片类型，仅限于png、PNG、jpg、JPG、bmp"})
+            return jsonify({"error": 1001, "msg": "请检查上传的图片类型，仅限于png、PNG、jpg、JPG、bmp,jpeg,JPEG"})
 
         filename = f.filename
         # user_input = request.form.get("name")
@@ -104,17 +103,18 @@ def upload():
         time.sleep(1)
         pred_str = prediction.predict_imgpath(upload_path)
         # 使用Opencv转换一下图片格式和名称
-        img = cv2.imread(upload_path)
-        cv2.imwrite(os.path.join(basepath, 'static/images', 'test.jpg'), img)
+        # img = cv2.imread(upload_path)
+        # cv2.imwrite(os.path.join(basepath, 'static/images', 'test.jpg'), img)
 
         insert_into_db(filename, pred_str)
 
-        return render_template('upload_ok.html', userinput=pred_str, val1=time.time())
-
-
+        return render_template('upload_ok.html', userinput=pred_str, val1=time.time(), imgpath='images/'+filename)
 
 
 if __name__ == '__main__':
-    createKeySpace()
+    try:
+        createKeySpace()
+    except Exception as e:
+        log.info("i guess keyspace already exist...", e)
     # app.debug = True
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=8987, debug=True)

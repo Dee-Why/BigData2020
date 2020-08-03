@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="570c5a8d-5fca-4f3c-b126-45b172dfaf87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../learn-docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn-docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn-docker/prepare_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn-docker/requirements_full.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn-docker/requirements_minimal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-docker/requirements_minimal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn-docker/run_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-docker/run_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retry1_docker/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retry1_docker/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retry1_docker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retry1_docker/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../retry1_docker/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/test.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,22 +165,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="532" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1596115257349" />
-    <state width="1480" height="203" key="GridCell.Tab.0.bottom" timestamp="1596294018990">
+    <state width="1480" height="366" key="GridCell.Tab.0.bottom" timestamp="1596357740857">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
-    <state width="1480" height="203" key="GridCell.Tab.0.center" timestamp="1596294018990">
+    <state width="1480" height="366" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596357740857" />
+    <state width="1480" height="366" key="GridCell.Tab.0.center" timestamp="1596357740857">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
-    <state width="1480" height="203" key="GridCell.Tab.0.left" timestamp="1596294018990">
+    <state width="1480" height="366" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596357740857" />
+    <state width="1480" height="366" key="GridCell.Tab.0.left" timestamp="1596357740857">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
-    <state width="1480" height="203" key="GridCell.Tab.0.right" timestamp="1596294018990">
+    <state width="1480" height="366" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596357740857" />
+    <state width="1480" height="366" key="GridCell.Tab.0.right" timestamp="1596357740857">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1480" height="203" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596294018990" />
+    <state width="1480" height="366" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596357740857" />
     <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1596031479752">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

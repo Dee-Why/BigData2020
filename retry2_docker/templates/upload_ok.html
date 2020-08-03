@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask上传图片演示</title>
+</head>
+<body>
+    <h1>使用Flask上传本地图片并显示分类</h1>
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <input type="file" name="file" style="margin-top:20px;"/>
+        <br>
+        <i>请输入您认为的类别（仅仅作为互动）：</i>
+        <input type="text" class="txt_input" name="name"  value="物品名称" style="margin-top:10px;"/>
+        <input type="submit" value="上传" class="button-new" style="margin-top:15px;"/>
+    </form>
+    <h1>判断的类别为：{{userinput}}！</h1>
+    <img src="{{ url_for('static', filename= imgpath, _t=val1) }}" width="400" height="400" alt="额，图片丢了"/>
+</body>
+</html>
