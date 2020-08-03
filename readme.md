@@ -1,5 +1,7 @@
 # BigData2020
 
+项目报告和视频在summary_class文件夹中，最终版源码在retry2_docker文件夹中
+
 if you just want to know about my final product--the containerized webservice of cloth image classification-- you can look at the retry2_docker/ directory and ignore all the rest
 
 the README file in retry2_docker/ will guide you the way.
