@@ -9,7 +9,8 @@ Welcome to learn_sphinx's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   
+   tutorial.md
 
 
 Indices and tables
